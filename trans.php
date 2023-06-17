@@ -120,8 +120,8 @@ if (!$result) {
 while ($row = mysqli_fetch_assoc($result)) { ?>
 
 
-			<div>Student Name: <?php echo$row['StudentName']?></div>
-			<div>GENDER : <?php echo$row['StudentName']?></div>
+			<div>Name: <?php echo$row['StudentName']?></div>
+			<div>GENDER : <?php echo$row['Gender']?></div>
 			<div>Mat NO: <?php echo$row['RollId']?></div>
 			<div>Course of Study: Computer Science</div>
 
